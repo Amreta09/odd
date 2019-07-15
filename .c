@@ -7,9 +7,13 @@ if(a%2==0)
 {
 printf("Even");
 }
-else
+else if(a%2!=0)
 {
 printf("Odd");
 }
+  else
+  {
+    printf("Invalid");
+  }
 return 0;
 }
